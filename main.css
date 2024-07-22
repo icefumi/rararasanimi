@@ -92,7 +92,7 @@ section ul li {
 
 /* 画像 */
 section img {
-    max-width: 100%;
+    max-width: 30%; /* 画像の最大幅を30%に設定 */
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -130,5 +130,9 @@ footer {
 
     section h4 {
         font-size: 1.25rem;
+    }
+
+    section img {
+        max-width: 50%; /* モバイルでの画像の最大幅を50%に設定 */
     }
 }
