@@ -1,3 +1,4 @@
+/* 基本設定 */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -98,7 +99,7 @@ section ul li {
 }
 
 .gallery img {
-    max-width: 30%;
+    width: 150px; /* サムネイルの幅 */
     height: auto;
     border-radius: 8px;
     cursor: pointer;
@@ -180,6 +181,6 @@ footer {
     }
 
     .gallery img {
-        max-width: 45%;
+        width: 100px; /* 小さくする */
     }
 }
